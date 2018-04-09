@@ -1,0 +1,21 @@
+.Posts {
+   display: inline-flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+    width: 259px;
+    height: 600px;
+    overflow-y: scroll;
+    margin: auto;
+}
+
+.viewPost {
+
+    display: inline-flex;
+    width: 500px;
+    justify-content: center;
+    position: relative;
+    height: 500px;}
+
