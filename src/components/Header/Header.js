@@ -4,7 +4,7 @@ import './Header.css';
 import axios from 'axios';
 
 
-class FullPost extends Component {
+class Header extends Component {
 
 
     render () {
@@ -21,4 +21,4 @@ class FullPost extends Component {
     }
 }
 
-export default FullPost;
+export default Header;
