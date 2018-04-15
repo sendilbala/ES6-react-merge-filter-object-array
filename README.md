@@ -12,7 +12,7 @@ You can then start the app with:
 npm start
 ```
 
-## Blog posts with filter option App
+## React ES6 with merge and filter object array
 
 - Uses ES6 coding pattern 
 
