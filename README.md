@@ -14,9 +14,11 @@ npm start
 
 ## Blog posts with filter option App
 
-- This app is to demonstrate getting datas from external server with different end points 
+- Uses ES6 coding pattern 
 
-- Merges the datas received from posts and users end point.
+- This uses axios for getting datas from external server with different end points 
+
+- Merges the object arrays received from posts and users end point.
 
 - Filters the posts list with post authors
 
