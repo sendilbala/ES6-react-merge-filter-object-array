@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import axios from '../../axios';
 
 import Post from '../../components/Post/Post';
-import FullPost from '../../components/FullPost/FullPost';
 import Filter from '../../components/Filter/Filter';
+import Header from '../../components/Header/Header';
 import './Blog.css';
 
 class Blog extends Component {
@@ -89,6 +89,7 @@ class Blog extends Component {
 
         return (
             <div>
+                <Header/>
                 <Filter 
                     author={this.state.filter}
                     users={this.state.users} 
