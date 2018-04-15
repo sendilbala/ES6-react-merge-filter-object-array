@@ -92,13 +92,12 @@ class Blog extends Component {
                 <Filter 
                     author={this.state.filter}
                     users={this.state.users} 
+                    listCount={posts.length}
                     changed={this.filterHandler}/>
                 <div className="Posts">
                     {posts}
                 </div>
-                <div className="viewPost">
-                    <FullPost id={this.state.selectedPostId} />
-                </div>
+                
                 
             </div>
         );

@@ -20,12 +20,6 @@ class FullPost extends Component {
         }
     }
 
-    deletePostHandler = () => {
-        axios.delete('/posts/' + this.props.id)
-            .then(response => {
-                console.log(response);
-            });
-    }
 
     render () {
         let post = <div style={{ textAlign: 'center' }}>Please select a Post!</div>;

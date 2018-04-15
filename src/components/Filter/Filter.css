@@ -1,4 +1,14 @@
 .filterPanel {
 	width: 100%;
 	padding: 20px;
+	text-align: right;
+}
+
+.filterPanel select {
+	margin-right: 40px;
+}
+
+.filterPanel .listCount {
+
+	float: left;
 }
