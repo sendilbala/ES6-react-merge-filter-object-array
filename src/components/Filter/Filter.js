@@ -4,8 +4,7 @@ import './Filter.css';
 
 const filter = (props) => {
 
-	//let filterText =  props.listCount + " posts from all Authors " ;
-let filterText = props.author === "" ? props.listCount + " posts from all Authors "  : props.listCount  + " posts from the Author " + props.author;    
+	let filterText = props.author === "" ? props.listCount + " posts from all Authors "  : props.listCount  + " posts from the Author " + props.author;    
 
 	let users = <option value=''></option>;
 		users = props.users.map(user => {
